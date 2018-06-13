@@ -139,7 +139,7 @@ nav{
 	height: 300px;
 	border-radius: 10px;
 	border:1px solid #ebebeb;
-	box-shadow:0 10px 25px rgba(134,134,134,.2);
+	box-shadow:0 10px 25px rgba(134,134,134,.1);
 	margin-left: 240px;
 }
 .basic-info-list{
@@ -150,7 +150,6 @@ nav{
 	height: 20%;
 	line-height: 65px;
 	padding-left:40px;
-
 }
 .basic-info-list>li>span{
 	font-size: 22px;
@@ -160,7 +159,6 @@ nav{
 	position: relative;
     top: 10px;
 }
-
 .info-list-left{
 	float: left;
 	width:41.5%;
@@ -245,13 +243,17 @@ nav{
 .case-nav-bar>li>a{
     border: 1px solid transparent;
 	padding: 12px 30px;
-	display: block;
+    display: block;
+    border-radius:30px;
+    transition:all 1s;
+}
+.case-nav-bar>li:first-child>a{
+    border-color: #565656;
+    box-shadow: 0 6px 12px #e8e8e8;
 }
 .case-nav-bar>li>a:hover{
-	
-	border:1px solid #565656;
-	border-radius:30px;
-	box-sizing:border-box;
+    border:1px solid #565656;
+    box-shadow: 0 6px 12px #e8e8e8;
 }
 .case-list{
 	margin-top:50px;
@@ -268,8 +270,11 @@ nav{
     border: 1px solid #ebebeb;
     box-shadow: 0 10px 25px rgba(134,134,134,.2);
     padding: 30px;
+    transition:all .5s;
 }
-
+.case-bar:hover{
+    box-shadow: 0 15px 35px rgba(134,134,134,.4);
+}
 .case-bar:first-child{
     margin:0 2% 0 0 ;	
 }
@@ -287,7 +292,7 @@ nav{
 	height: 100%;
 }
 .case-title{
-	margin-top: 80px;
+	margin-top: 50px;
 }
 .part-footer{
 margin:80px 0 30px 0;
@@ -307,7 +312,6 @@ margin:80px 0 30px 0;
 
 
 @media screen and (max-width: 767px){
-
 .main {
     padding: 0 2%;
 }
@@ -387,7 +391,6 @@ margin:80px 0 30px 0;
     padding-left: 18px;
 }
 
-
 .name {
     height: 7vw;
     width: 7vw;
@@ -424,15 +427,12 @@ margin:80px 0 30px 0;
     background: url(../images/school.png) no-repeat;
     background-size: 100%;
 }
-
-
 .address {
     height: 7vw;
     width: 7vw;
     background: url(../images/address.png) no-repeat;
     background-size: 100%;
 }
-
 .email {
     height: 7vw;
     width: 7vw;
@@ -445,14 +445,11 @@ margin:80px 0 30px 0;
     background: url(../images/phone.png) no-repeat;
     background-size: 100%;
 }
-
-
 .skill-box li span {
     height: 80px;
     width: 80px;
     background-size: 100%;
 }
-
 .skill-box {
     padding:0  10px;
 }
@@ -497,14 +494,11 @@ margin:80px 0 30px 0;
     background: url(../images/nodejs.png) no-repeat;
 }
 
-
-
-.case-nav-bar>li:first-child {
+.case-nav-bar>li:first-child a {
 	border: 1px solid #565656;
     border-radius: 30px;
     box-sizing: border-box;
 }
-
 
 .case-nav-bar {
     width: 100%;
