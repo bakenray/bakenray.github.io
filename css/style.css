@@ -310,6 +310,32 @@ margin:80px 0 30px 0;
 	color: #bf9a57;
 }
 
+.icon-media{background:url(../images/icon-media.png)  no-repeat;}
+.jianshu{height:100px;width:100px;background-position:0 0;}
+.pinterest{height:100px;width:100px;background-position:0 -100px;}
+.weibo{height:100px;width:100px;background-position:0 -200px;}
+.behance{height:100px;width:100px;background-position:0 -300px;}
+.dribbble{height:100px;width:100px;background-position:0 -400px;}
+.github{height:100px;width:100px;background-position:0 -500px;}
+
+.part-footer ul{
+    margin-top:50px;
+    display:flex;
+    justify-content: center;
+}
+.part-footer ul li a{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    margin:0 30px;
+    display:block;
+    box-shadow:0 4px 10px #ccc;
+    transition:all .8s;
+}
+.part-footer ul li a:hover{
+    transform:scale(1.05);
+    box-shadow:0 8px 15px #ccc;
+}
 
 @media screen and (max-width: 767px){
 .main {
