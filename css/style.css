@@ -58,7 +58,7 @@ nav{
     border-radius:50%;
     position: relative;
     animation:logo 8s linear infinite;
-    box-shadow:1px 1px 4px #eae2d3,-1px -1px 4px #eae2d3;
+    box-shadow: 1px 1px 4px #ece8e1, -1px -1px 4px #e7e5e0;
 }
 .logo-sm:hover{
     box-shadow:2px 2px 10px #e2d5bd,-2px -2px 10px #e2d5bd;
@@ -310,7 +310,7 @@ margin:80px 0 30px 0;
 	color: #bf9a57;
 }
 
-.icon-media{background:url(../images/icon-media.png)  no-repeat;}
+.icon-media{background:url(../images/icon-media.png)  no-repeat; background-size: 100%;}
 .jianshu{height:100px;width:100px;background-position:0 0;}
 .pinterest{height:100px;width:100px;background-position:0 -100px;}
 .weibo{height:100px;width:100px;background-position:0 -200px;}
@@ -358,7 +358,7 @@ margin:80px 0 30px 0;
     padding: 70px 0 20px 0;
 }
 .part-name>h2 {
-    font-size: 22px;
+    font-size: 20px;
 }
 .part-info h3 {
     font-size: 22px;
@@ -380,13 +380,13 @@ margin:80px 0 30px 0;
     justify-content: center;
 }
 .logo-bar>p {
-    line-height: 20px;
+    line-height: 30px;
     font-size: 14px;
     padding-left: 6px;
 }
 .logo-sm {
-    height:20px;
-    width:20px;
+    height:30px;
+    width:30px;
     background: url(../images/logo-sm.png) no-repeat;
     background-size: 100%;
 }
@@ -394,6 +394,7 @@ margin:80px 0 30px 0;
     margin: 20px;
     border-left: 4px solid #565656;
     padding-left: 10px;
+    line-height: 24px;
 }
 
 .basic-info-list>li>span>span {
@@ -401,7 +402,7 @@ margin:80px 0 30px 0;
 }
 
 .basic-info-list>li>span {
-    font-size: 4.5vw;
+    font-size: 4.4vw;
 }
 .basic-info-list>li {
     padding-left: 8px;
@@ -475,6 +476,7 @@ margin:80px 0 30px 0;
     height: 80px;
     width: 80px;
     background-size: 100%;
+    box-shadow: 0 5px 10px #d5d5d5;
 }
 .skill-box {
     padding:0  10px;
@@ -540,5 +542,17 @@ margin:80px 0 30px 0;
 .case-box {
     margin: 20px 0;
 }
+.part-footer ul li a {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+.jianshu{height:100px;width:100px;background-position:0 0;}
+.pinterest{height:100px;width:100px;background-position:0 -40px;}
+.weibo{height:100px;width:100px;background-position:0 -80px;}
+.behance{height:100px;width:100px;background-position:0 -120px;}
+.dribbble{height:100px;width:100px;background-position:0 -160px;}
+.github{height:100px;width:100px;background-position:0 -200px;}
+
 }
 
