@@ -21,7 +21,7 @@ nav{
 	height: 100px;
 	line-height: 100px;
 }
-.img-sprite{background:url(../images/img-sprite.png)  no-repeat;}
+.img-sprite{background:url(https://i.loli.net/2018/09/06/5b90c44e4a896.png)  no-repeat;}
 .email{height:40px;width:40px;background-position:0 0;}
 .qq{height:40px;width:40px;background-position:0 -40px;}
 .name{height:40px;width:40px;background-position:0 -80px;}
@@ -311,7 +311,7 @@ margin:80px 0 30px 0;
 	color: #bf9a57;
 }
 
-.icon-media{background:url(../images/icon-media.png)  no-repeat; background-size: 100%;}
+.icon-media{background:url(https://i.loli.net/2018/09/06/5b90c3bbd6a7f.png)  no-repeat; background-size: 100%;}
 .jianshu{height:100px;width:100px;background-position:0 0;}
 .pinterest{height:100px;width:100px;background-position:0 -100px;}
 .weibo{height:100px;width:100px;background-position:0 -200px;}
