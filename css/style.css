@@ -46,6 +46,13 @@ nav{
 .jq{height:66px;width:66px;background-position:0 -1156px;}
 .logo-hd{height:488px;width:488px;background-position:center -1222px;}
 
+.vscode{height: 66px;width: 66px;background:url(https://i.loli.net/2018/11/29/5c0005d57b07a.png) }
+.git{height: 66px;width: 66px;background:url(https://i.loli.net/2018/11/29/5c0005d577b2a.png) }
+.webpack{height: 66px;width: 66px;background:url(https://i.loli.net/2018/11/29/5c0005d55f7ef.png) }
+.npm{height: 66px;width: 66px;background:url(https://i.loli.net/2018/11/29/5c0005d579604.png) }
+.axios{height: 66px;width: 66px;background:url(https://i.loli.net/2018/11/29/5c0005d576185.png) }
+
+
 .main{
 	padding:0 100px;
 }
@@ -219,6 +226,22 @@ nav{
 .skill-box li .nodejs:hover{
     box-shadow: 0 5px 10px #c7eca0;
 }
+.skill-box li .vscode:hover{
+    box-shadow: 0 5px 10px #7ea9d8;
+}
+.skill-box li .git:hover{
+    box-shadow: 0 5px 10px #fda996;
+}
+.skill-box li .webpack:hover{
+    box-shadow: 0 5px 10px #97b3e8;
+}
+.skill-box li .npm:hover{
+    box-shadow: 0 5px 10px #f0abaa;
+}
+.skill-box li .axios:hover{
+    box-shadow:0 5px 10px #86ccd3
+}
+
 .skill-box li h5{
 	text-align: center;
     font-size: 12px;
@@ -271,7 +294,7 @@ nav{
 	border-radius: 10px;
     border: 1px solid #ebebeb;
     box-shadow: 0 10px 25px rgba(134,134,134,.2);
-    padding: 30px;
+    padding: 15px;
     transition:all .5s;
 }
 .case-bar:hover{
@@ -294,7 +317,7 @@ nav{
 	height: 100%;
 }
 .case-title{
-	margin-top: 50px;
+	margin-top: 20px;
 }
 .part-footer{
 margin:80px 0 30px 0;
@@ -332,9 +355,10 @@ margin:80px 0 30px 0;
     display:block;
     box-shadow:0 4px 10px #ccc;
     transition:all .8s;
+    transform: scale(0.5);
 }
 .part-footer ul li a:hover{
-    transform:scale(1.05);
+    transform:scale(0.6);
     box-shadow:0 8px 15px #ccc;
 }
 
@@ -532,7 +556,7 @@ margin:80px 0 30px 0;
     width: 100%;
 }
 .case-nav-bar>li {
-    padding: 7px 9px;
+    padding: 8px 14px;
     font-size: 12px;
     margin: 0 4px;
 }

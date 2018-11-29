@@ -5,10 +5,8 @@
 		varMove[i].onclick=function(e){
 			varMove[i].classList.add('nav-border')
 			getEleSiblings(varMove[i],'nav-border')
-			console.log(varMove[i])
 			caseLists[i].classList.add('on')
 			getEleSiblings(caseLists[i],'on')
-			console.log(caseLists[i])
 		}
 	}	
 	// 获取兄弟元素并去除类
@@ -20,6 +18,7 @@
 			}
 		}
 	}
+
 
 }.call()
 
