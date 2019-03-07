@@ -52,7 +52,6 @@ nav{
 .npm{height: 66px;width: 66px;background:url(https://i.loli.net/2018/11/29/5c0005d579604.png) }
 .axios{height: 66px;width: 66px;background:url(https://i.loli.net/2018/11/29/5c0005d576185.png) }
 
-
 .main{
 	padding:0 100px;
 }
@@ -64,7 +63,7 @@ nav{
     text-decoration:none;
     border-radius:50%;
     position: relative;
-    animation:logo 8s linear infinite;
+    animation:logo 15s linear infinite;
     box-shadow: 1px 1px 4px #ece8e1, -1px -1px 4px #e7e5e0;
 }
 .logo-sm:hover{
