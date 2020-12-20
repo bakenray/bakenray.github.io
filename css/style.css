@@ -51,6 +51,7 @@ nav{
 .webpack{height: 66px;width: 66px;background:url(https://i.loli.net/2018/11/29/5c0005d55f7ef.png) }
 .npm{height: 66px;width: 66px;background:url(https://i.loli.net/2018/11/29/5c0005d579604.png) }
 .axios{height: 66px;width: 66px;background:url(https://i.loli.net/2018/11/29/5c0005d576185.png) }
+.nodejs{height: 66px;width: 66px;background:url('../images/nodejs.png')}
 
 .main{
 	padding:0 100px;
@@ -65,6 +66,7 @@ nav{
     position: relative;
     animation:logo 15s linear infinite;
     box-shadow: 1px 1px 4px #ece8e1, -1px -1px 4px #e7e5e0;
+    transition: box-shadow .35s ease-in-out;
 }
 .logo-sm:hover{
     box-shadow:2px 2px 10px #e2d5bd,-2px -2px 10px #e2d5bd;
